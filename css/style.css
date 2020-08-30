@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+h1, h2, h3, h4 {
+    font-family: cursive;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+#title {
+    margin: 3vh 0;
+}
+
+#selection-container {
+    width: 95%;
+    margin-left: 2.5%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.selection:hover {
+    cursor: pointer;
+}
+
+
+th, td {
+    padding: 15px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+}
+
+p {
+    font-family: cursive;
+}

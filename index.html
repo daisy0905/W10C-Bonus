@@ -1,1 +1,31 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="title">Pokemon Battle</h1>
+    <h2>Select your player:</h2>
+    <div id="selection-container">
+        <div id="pkm1" class="selection" onclick="select('charizard')">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png" alt="Charizard">
+            <h2>Charizard</h2>
+        </div>
+        <div id="pkm2" class="selection" onclick="select('blastoise')">
+            <img src="https://images.gameinfo.io/pokemon/256/009-00.png" alt="Blastoise">
+            <h2>Blastoise</h2>
+        </div>
+        <div id="pkm3" class="selection" onclick="select('venusaur')">
+            <img src="https://images.gameinfo.io/pokemon/256/003-01.png" alt="Venusaur">
+            <h2>Venusaur</h2>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
