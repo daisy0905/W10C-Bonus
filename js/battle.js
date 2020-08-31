@@ -146,11 +146,10 @@ function attackOne() {
     console.log(userCurrentHP);
 
     document.getElementById('hp1').innerHTML = '<p>HP:' + userCurrentHP + '/' + userMaxHP + '</p>';
+    checkWinner();
     
     Cookies.set('userHP', userCurrentHP);
     Cookies.set('computerHP', computerCurrentHP);
-
-    checkWinner();
 }
 
 function attackTwo() {
@@ -180,11 +179,10 @@ function attackTwo() {
     console.log(userCurrentHP);
 
     document.getElementById('hp1').innerHTML = '<p>HP:' + userCurrentHP + '/' + userMaxHP + '</p>';
+    checkWinner();
     
     Cookies.set('userHP', userCurrentHP);
     Cookies.set('computerHP', computerCurrentHP);
-
-    checkWinner();
 }
 
 function attackThree() {
@@ -213,11 +211,10 @@ function attackThree() {
     console.log(userCurrentHP);
 
     document.getElementById('hp1').innerHTML = '<p>HP:' + userCurrentHP + '/' + userMaxHP + '</p>';
+    checkWinner();
     
     Cookies.set('userHP', userCurrentHP);
     Cookies.set('computerHP', computerCurrentHP);
-
-    checkWinner();
 }
 
 function attackFour() {
@@ -248,11 +245,10 @@ function attackFour() {
     console.log(userCurrentHP);
 
     document.getElementById('hp1').innerHTML = '<p>HP:' + userCurrentHP + '/' + userMaxHP + '</p>';
+    checkWinner();
     
     Cookies.set('userHP', userCurrentHP);
     Cookies.set('computerHP', computerCurrentHP);
-
-    checkWinner();
 }
 
 function checkWinner() {
